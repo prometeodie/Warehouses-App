@@ -1,0 +1,48 @@
+.table{
+  // TODO:para pantalla mas grande sacar el scroll
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: scroll;
+  padding: 0 0.5rem 5rem 0.5rem;
+
+
+  &__last-column{
+    width: 0.5rem;
+  }
+
+  &__paginator{
+    display: flex;
+  }
+  &__addres{
+    font-size: x-small;
+  }
+
+}
+
+.table__btn-container{
+  display: flex;
+  justify-content: end;
+}
+
+.empty-table{
+  width: 100%;
+  height: 2rem;
+  background-color: rgb(189, 71, 71);
+  text-align: center;
+  padding:0.5rem 0;
+}
+
+
+// MEDIA QUERIES
+@media (min-width:801px) {
+  .table{
+    overflow: hidden;
+  }
+}
+
+@media (min-width:1025px) {
+  .table__addres{
+    font-size: medium;
+  }
+}

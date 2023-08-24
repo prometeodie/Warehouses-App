@@ -1,0 +1,13 @@
+
+.list-container{
+  position: relative;
+  &__btn{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    margin-bottom: 30px;
+  }
+  // TODO:para medidas mas grandes rigth 2rem
+}
+
+

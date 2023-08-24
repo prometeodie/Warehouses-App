@@ -1,0 +1,23 @@
+@import '../../../scss/variables.scss';
+
+.map-section-container,
+.map-section__map
+{
+  height: 90%;
+  width: 100%;
+}
+
+.map-section-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // TODO:lo comentado es para media queries
+  // padding: 0 2rem 2rem 2rem;
+  padding: 0 1rem 1rem 1rem;
+  position: relative;
+}
+
+.map-section__map{
+  padding-bottom: 2rem;
+}
