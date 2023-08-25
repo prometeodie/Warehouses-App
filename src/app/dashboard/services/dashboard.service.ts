@@ -15,7 +15,7 @@ export class DashboardService {
   warehouses:Warehouse[] = [
     {
       "addres": "Av. Cabildo 3150, Buenos Aires, Argentina",
-      "code": 1,
+      "code": 1990,
       "country": " Argentina",
       "list": [
         {
@@ -61,20 +61,20 @@ export class DashboardService {
     },
     {
       "addres": "Gral. Güemes 897, B1873BOC Avellaneda, Provincia de Buenos Aires, Argentina",
-      "code": 3,
+      "code": 193,
       "country": " Argentina",
       "list": [
         {
-          "cosa": "pony"
+          "cosa": "auto"
         },
         {
-          "cosa": "buzo"
+          "cosa": "dado"
         },
         {
-          "cosa": "termo"
+          "cosa": "sticker"
         },
         {
-          "cosa": "notebook"
+          "cosa": "monitor"
         },
         {
           "cosa": "una cosa"
@@ -95,29 +95,29 @@ export class DashboardService {
     },
     {
       "addres": "14 de Julio, Tandil, Provincia de Buenos Aires, Argentina",
-      "code": 4,
+      "code": 2894,
       "country": " Argentina",
       "list": [
+        {
+          "cosa": "algo"
+        },
+        {
+          "cosa": "@los_manijas_del_Rol"
+        },
         {
           "cosa": "pony"
         },
         {
-          "cosa": "buzo"
-        },
-        {
-          "cosa": "termo"
-        },
-        {
-          "cosa": "notebook"
+          "cosa": "baldur gates 3"
         },
         {
           "cosa": "una cosa"
         },
         {
-          "cosa": "otra cosa"
+          "cosa": "avion"
         },
         {
-          "cosa": "3 cosas"
+          "cosa": "libros"
         }
       ],
       "name": "Example 1",
@@ -126,6 +126,74 @@ export class DashboardService {
       {"lat": -37.3255146,
        "lng": -59.1420937},
       "id":4
+    },
+    {
+      "addres": "Av. 9 de Julio s/n, C1043 CABA",
+      "code": 5002,
+      "country": " Argentina",
+      "list": [
+        {
+          "cosa": "algo"
+        },
+        {
+          "cosa": "@los_manijas_del_Rol"
+        },
+        {
+          "cosa": "pony"
+        },
+        {
+          "cosa": "baldur gates 3"
+        },
+        {
+          "cosa": "una cosa"
+        },
+        {
+          "cosa": "avion"
+        },
+        {
+          "cosa": "libros"
+        }
+      ],
+      "name": "Example 1",
+      "zip": 0,
+      "latLng":
+      {"lat": -34.60371822949157,
+       "lng":  -58.381563018541705},
+      "id":5
+    },
+    {
+      "addres": "B7600JUZ, Av. Patricio Peralta Ramos 10, B7600JUZ Mar del Plata, Provincia de Buenos Aires",
+      "code": 4563,
+      "country": " Argentina",
+      "list": [
+        {
+          "cosa": "algo"
+        },
+        {
+          "cosa": "@los_manijas_del_Rol"
+        },
+        {
+          "cosa": "pony"
+        },
+        {
+          "cosa": "baldur gates 3"
+        },
+        {
+          "cosa": "una cosa"
+        },
+        {
+          "cosa": "avion"
+        },
+        {
+          "cosa": "libros"
+        }
+      ],
+      "name": "Example 1",
+      "zip": 0,
+      "latLng":
+      {"lat": -38.004343204744615,
+       "lng": -57.541054182044405},
+      "id":5
     },
   ]
 
