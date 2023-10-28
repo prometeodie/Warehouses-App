@@ -57,11 +57,9 @@ export class AuthService {
     const user = this.users.filter(user=>{
       return user.email === email
     })
-    console.log(user[0])
     if(user.length !== 1){
       return of(false)
     }
-    console.log(user[0])
     if(user[0].password === password){
       this.setUserAuthentication(user[0], user[0].id.toString());
       return of(true)
