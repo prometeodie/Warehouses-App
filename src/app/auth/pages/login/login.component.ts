@@ -39,12 +39,20 @@ export class LoginComponent  {
 
     const {email , password} = this.myForm.value;
     this.authService.login(email!, password!)
-    .subscribe({
-      next: () => this.router.navigateByUrl('/dashboard/home'),
-      error: (message)=>{
-        Swal.fire('Error','Your Email or password is incorrect!','error')
+    .subscribe(
+      resp =>{
+        if(!resp){
+              Swal.fire('Error','Your Email or password is incorrect!','error')
+        }
+        this.router.navigateByUrl('/dashboard/home');
       }
-    });
+
+    //   {
+    //   next: () => this.router.navigateByUrl('/dashboard/home'),
+    //   error: (message)=>{
+    //   }
+    // }
+    );
   }
 
   closeOpenCredentials(){

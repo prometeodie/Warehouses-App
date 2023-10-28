@@ -13,8 +13,8 @@ const routes: Routes = [
     path:'',
     component: LayoutPageComponent,
     children:[
-      {path:'map',canActivate:[hasRoleGuard],data:{allowedRoles:['admin']},component: MapComponent },
-      {path:'new-warehouse',canActivate:[hasRoleGuard],data:{allowedRoles:['admin','user']}, component: NewWarehouseComponent },
+      {path:'map',canActivate:[hasRoleGuard],data:{allowedRoles:['ADMIN']},component: MapComponent },
+      {path:'new-warehouse',canActivate:[hasRoleGuard],data:{allowedRoles:['ADMIN','USER']}, component: NewWarehouseComponent },
       {path:'warehouse-list',component: WarehouseListComponent},
       {path: '**', redirectTo:'warehouse-list',}
     ]

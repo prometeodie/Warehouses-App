@@ -9,7 +9,7 @@
       </button>
         <!-- input to find the closest warehouse -->
         <input type="text" #inpuField
-              *ngIf="currentUserRole === 'admin'"
+              *ngIf="currentUserRole === 'ADMIN'"
               class="btn-input-container__search-bar"
               placeholder="(Addres) Search for The Closest Warehouse"
               (change)="navigateToMap()">
