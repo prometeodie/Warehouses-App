@@ -55,7 +55,7 @@ export class AuthService {
     // )
 
     const user = this.users.filter(user=>{
-      return user.email === email
+      return user.email === email.toLocaleLowerCase()
     })
     if(user.length !== 1){
       return of(false)

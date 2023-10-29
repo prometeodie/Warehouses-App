@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent  {
 
-  public  emailPattern: string = "^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$";
+  public  emailPattern: string = "^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$";
   public isCredentialClosed:boolean = true;
   private fb = inject(FormBuilder);
   private authService = inject(AuthService);
